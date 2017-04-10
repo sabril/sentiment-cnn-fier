@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140/checkpoint.ckpt"
+all_model_checkpoint_paths: "/home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140/checkpoint.ckpt"

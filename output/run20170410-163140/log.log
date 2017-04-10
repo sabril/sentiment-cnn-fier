@@ -1,0 +1,347 @@
+
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = 
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = 
+	num_filters = 128
+	reduced_dataset = 1
+	save = True
+	test_data_ratio = 10
+	train = True
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, creating network...
+=======================================================
+Starting training...
+Step 187 of 561 (epoch 2), validation accuracy: 0.744167, validation loss: 70.4507
+Saving checkpoint...
+Step 374 of 561 (epoch 3), validation accuracy: 0.786905, validation loss: 59.7607
+Saving checkpoint...
+Step 561 of 561 (epoch 4), validation accuracy: 0.811667, validation loss: 53.7147
+Saving checkpoint...
+End of training, validation accuracy: 0.812143, validation loss: 53.633
+Saving checkpoint...
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = indihome mahal
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: indihome mahal
+Custom input evaluation: NEG
+Actual output: [ 0.14468499  0.27371413  0.5816009 ]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = indihome mahal tapi bagus
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: indihome mahal tapi bagus
+Custom input evaluation: NEG
+Actual output: [ 0.00876733  0.20572178  0.78551084]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = indihome bagus tapi mahal
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: indihome bagus tapi mahal
+Custom input evaluation: NEG
+Actual output: [ 0.00418841  0.36806893  0.62774265]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = indihome bagus
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: indihome bagus
+Custom input evaluation: NEG
+Actual output: [ 0.04760564  0.47091198  0.48148242]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = speedy cepat
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: speedy cepat
+Custom input evaluation: POS
+Actual output: [ 0.02301185  0.57952988  0.39745831]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = speedy cepat tapi mahal
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: speedy cepat tapi mahal
+Custom input evaluation: POS
+Actual output: [ 0.00121658  0.82650292  0.17228043]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = speedy cepat tapi murah
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: speedy cepat tapi murah
+Custom input evaluation: POS
+Actual output: [ 0.00273138  0.91444635  0.08282223]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = speedy mahal
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: speedy mahal
+Custom input evaluation: NEG
+Actual output: [ 0.03400552  0.34834936  0.61764514]
+=======================================================
+======================= START! ========================
+=======================================================
+Preprocessing...
+
+Flags:
+	batch_size = 100
+	checkpoint_freq = 1
+	custom_input = speedy bagus
+	embedding_size = 128
+	epochs = 3
+	evaluate_batch = False
+	filter_sizes = 3,4,5
+	load = run20170410-163140
+	num_filters = 128
+	reduced_dataset = 1
+	save = False
+	test_data_ratio = 10
+	train = False
+	valid_freq = 1
+
+Dataset:
+	Train set size = 18724
+	Test set size = 2080
+	Vocabulary size = 15212
+	Input layer size = 33
+	Number of classes = 3
+
+Output folder: /home/syaiful/machine_learning_projects/fier-thesis/output/run20170410-163140
+Data processing OK, loading network...
+=======================================================
+Processing custom input: speedy bagus
+Custom input evaluation: NEG
+Actual output: [ 0.01700248  0.48303539  0.49996209]
